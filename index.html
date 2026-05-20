@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>k8agura | Portfolio</title>
+  <meta
+    name="description"
+    content="Портфолио веб-разработчика k8agura"
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand-mark">k8</span>
+        <span class="brand-text">k8agura</span>
+      </a>
+      <nav class="nav">
+        <a href="#projects">Проекты</a>
+        <a href="#stack">Стек</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle button button-ghost" type="button" aria-label="Переключить тему">
+          <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle-text">Темная тема</span>
+        </button>
+        <a class="button button-ghost" href="https://github.com/k8agura?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Frontend / Fullstack / Clean UI</p>
+          <h1>Портфолио веб-разработчика.</h1>
+          <p class="hero-text">
+            Я создаю веб-приложения, учебные и практические проекты, работаю с frontend, backend и оформляю продукты так,
+            чтобы они выглядели современно и читались с первого экрана.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Смотреть проекты</a>
+            <a class="button button-secondary" href="https://github.com/k8agura" target="_blank" rel="noreferrer">Открыть профиль</a>
+          </div>
+          <ul class="metrics">
+            <li>
+              <strong id="repo-count">0</strong>
+              <span>публичных репозиториев</span>
+            </li>
+            <li>
+              <strong id="language-count">0</strong>
+              <span>языков и технологий</span>
+            </li>
+            <li>
+              <strong>Fullstack</strong>
+              <span>web, backend, интерфейсы</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-card-top">
+            <span class="status-dot"></span>
+            <span>Backend / Frontend / Embedded</span>
+          </div>
+          <div class="hero-card-lead">
+            <p class="hero-card-label">Профиль</p>
+            <h3>Инженер-программист с опытом веб-разработки и внутренних систем.</h3>
+          </div>
+          <div class="hero-card-grid">
+            <article>
+              <span>Текущая роль</span>
+              <strong>Инженер-программист</strong>
+            </article>
+            <article>
+              <span>Компания</span>
+              <strong>Завод микроэлектронных технологий</strong>
+            </article>
+            <article>
+              <span>Основной стек</span>
+              <strong>PHP / Laravel / Node.js</strong>
+            </article>
+            <article>
+              <span>Frontend</span>
+              <strong>JavaScript / Vue.js</strong>
+            </article>
+          </div>
+          <div class="hero-card-footer">
+            <p>Работаю с внутренними сервисами, пользовательскими интерфейсами, интеграциями и сопровождением существующих систем.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Обо мне</p>
+          <h2>Опыт и специализация</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Текущая роль</h3>
+            <p>
+              Инженер-программист в ООО «Завод микроэлектронных технологий» с мая 2025 года.
+              Разрабатываю и сопровождаю внутреннее ПО и пользовательские интерфейсы, работаю с
+              backend на PHP/Laravel и Node.js, frontend на JavaScript и Vue.js, а также пишу код
+              для микроконтроллеров STM32 на C/C++.
+            </p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Коммерческий опыт</h3>
+            <p>
+              Работал разработчиком в Яндекс Команде для бизнеса с апреля 2024 по апрель 2025,
+              где занимался внутренними веб-сервисами, legacy-системами, SQL-запросами,
+              уведомлениями и доработкой frontend/backend-части на PHP, Node.js и JavaScript.
+            </p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Бэкграунд</h3>
+            <p>
+              До этого разрабатывал и сопровождал внутренние ИТ-сервисы в МАРКСОФТ,
+              а также веб-приложения и REST API в СКБ-44 на Node.js, TypeScript, Vue.js, Quasar и TypeORM.
+              Основной фокус: бизнес-логика, интеграции, исправление ошибок и развитие существующих систем.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack" id="stack">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Стек</p>
+          <h2>Технологии, с которыми я работаю</h2>
+        </div>
+        <div class="stack-cloud reveal" id="stack-cloud">
+          <span>.NET</span>
+          <span>C#</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>PHP</span>
+          <span>Git</span>
+          <span>REST API</span>
+          <span>Responsive UI</span>
+          <span>Frontend</span>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Проекты</p>
+          <h2>Избранные репозитории из GitHub</h2>
+          <p>Карточки заполняются автоматически и выводятся от самых новых репозиториев к более ранним.</p>
+        </div>
+        <div class="projects-grid" id="projects-grid" aria-live="polite">
+          <article class="project-skeleton"></article>
+          <article class="project-skeleton"></article>
+          <article class="project-skeleton"></article>
+          <article class="project-skeleton"></article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Контакты</p>
+            <h2>Открыт к новым проектам и сильным идеям</h2>
+            <p>
+              Если нужен адаптивный лендинг, интерфейс или аккуратная реализация веб-части проекта,
+              удобнее всего связаться через GitHub или Telegram.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://github.com/k8agura" target="_blank" rel="noreferrer">Написать в GitHub</a>
+            <a class="button button-secondary" href="https://t.me/aminovaynur" target="_blank" rel="noreferrer">Telegram: @aminovaynur</a>
+            <a class="button button-ghost" href="https://github.com/k8agura?tab=repositories" target="_blank" rel="noreferrer">Все репозитории</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <template id="project-card-template">
+    <article class="project-card reveal">
+      <div class="project-card-top">
+        <span class="project-type"></span>
+        <span class="project-language"></span>
+      </div>
+      <h3 class="project-title"></h3>
+      <p class="project-description"></p>
+      <div class="project-meta">
+        <span class="project-language-note"></span>
+      </div>
+      <div class="project-links">
+        <a class="button button-small button-primary project-link-repo" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button button-small button-secondary project-link-code" target="_blank" rel="noreferrer">Source</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
